@@ -1,0 +1,14 @@
+@font-face {
+    font-family: opreg;
+    src: url("../fonts/opensans-regular.woff") format("woff") , url("../fonts/opensans-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: opsem;
+    src: url("../fonts/opensans-semibold.woff") format("woff") , url("../fonts/opensans-semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: source;
+    src: url("../fonts/sourcesanspro-regular.woff") format("woff") , url("../fonts/sourcesanspro-regular.woff2") format("woff2");
+}

@@ -1,0 +1,231 @@
+@import url('reset.css');
+
+body {
+    background-color: #eeeeee;
+}
+
+#header header {
+    padding: 0px 130px;
+    background-color: #303b44;
+}
+
+#header header .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+#header header .logo a img {
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#center {
+    padding: 30px 50px 0 100px;
+    display: flex;
+}
+
+#center .left {
+    width: 75%;
+    margin-right: 50px;
+}
+
+#center .left .profile {
+    background-color: #111;
+    color: #fff;
+    font-family: "Bookman Old Style";
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#center .left .profile .img {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#center .left .profile .img .right_img {
+    margin-left: 20px;
+    font-size: 140%;
+}
+
+#center .left .profile .img .right_img p:first-child {
+    border-bottom: 1px solid #fff;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    width: 76%;
+}
+
+#center .left .content {
+    background-color: #fff;
+    font-family: "Bookman Old Style";
+}
+
+#center .left .content h4 {
+    text-align: center;
+    font-size: 140%;
+}
+
+#center .left .content .primer {
+    padding: 20px 30px;
+}
+
+#center .left .content .primer .elem {
+    text-align: center;
+}
+
+#center .left .content .primer .elem a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 120%;
+    color: #000;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    transition: font-size 250ms ease-in-out;
+}
+
+#center .left .content .primer .elem a:hover {
+    color: darkgoldenrod;
+    font-size: 150%;
+}
+
+#center .right {
+    width: 25%;
+}
+
+#center .right .top_stat{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Bookman Old Style";
+}
+
+#center .right .top_stat h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#center .right .me {
+    margin-top: 10%;
+    background-color: #fff;
+    padding: 30px 20px 35px;
+    border-radius: 10px;
+    font-family: "Bookman Old Style";
+}
+
+#center .right .me h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#center .right .me p {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#center .right .me .html {
+    background-color: #000;
+    height: 2px;
+}
+
+#center .right .me .html .html_nav {
+    height: 2px;
+    width: 85%;
+    background-color: orange;
+}
+
+#center .right .me .elem:nth-child(3) .html_nav {
+    width: 75%;
+}
+
+#center .right .me .elem:nth-child(4) .html_nav {
+    width: 55%;
+}
+
+
+#center .bottom {
+    padding: 30px 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#center .bottom p a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#center .right ul li {
+    margin-top: 10px;
+}
+
+#center .bottom p {
+    position: relative;
+}
+
+#center .bottom p .open {
+    opacity: 0.5;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    top: 20px;
+    left: 20px;
+    transition:  0.3ms ease-in-out;
+}
+
+@media screen and (max-width: 1222px) {
+    #center .right ul li {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    #center {
+        padding: 30px 30px 0 20px;
+    }
+
+    #center .left {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    #center .left {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #center .right {
+        width: 100%;
+    }
+
+    #center .right .me {
+        margin-top: 10px;
+    }
+
+    #header header .logo {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    #center .left .profile .img .right_img {
+        width: 50%;
+    }
+}
